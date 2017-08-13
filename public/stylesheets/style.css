@@ -1,0 +1,100 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  margin:0 0 .5em 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+button{
+  color:#050;
+  font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+  background-color:#fed;
+  border:1px solid;
+  border-color: #696 #363 #363 #696;
+}
+
+#wrapper {
+  padding-left:600px;
+  position:relative;
+}
+
+#userEdit {
+  margin:0 0 30px 0;
+}
+
+#userEdit table th {
+  font-size: small;
+  background:#EEE;
+  font-weight:600;
+  padding:10px 20px;
+  text-align:center;
+}
+
+#userEdit table tbody {
+  font-size: small;
+  font-weight: 300;
+  padding:0; margin:0;
+  border-collapse:collapse;
+  border-spacing:0px;
+}
+#userEdit table td {
+  background:#FFFFFF;
+  padding:5px 5px;
+  border:1px solid;
+  text-align:center;
+}
+
+#userSearch {
+  margin:0 0 30px 0;
+}
+
+#userList {
+  margin:0 0 30px 0;
+}
+#userList table {
+  border-collapse:separate;
+  border-spacing:1px;
+  background:#CCC;
+}
+#userList table th {
+  background:#EEE;
+  font-weight:600;
+  padding:10px 20px;
+  text-align:center;
+}
+#userList table tbody {
+  padding:0; margin:0;
+  border-collapse:collapse;
+  border-spacing:0px;
+}
+#userList table td {
+  background:#FFF;
+  padding:5px 10px;
+  text-align:center;
+}
+
+#userInfo {
+  width:550px;
+  position:absolute;
+  top:0; left:0;
+}
+#userInfo p {
+  padding:5px;
+  border:1px solid #CCC;
+  background:rgba(80,120,255,0.05);
+}
+
+fieldset {
+  border:0;
+  padding:0; margin:0;
+}
+
+#inputParentIdErrMsg{
+  color:red;
+}

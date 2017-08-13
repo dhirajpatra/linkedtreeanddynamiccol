@@ -1,0 +1,30 @@
+extends layout2
+
+block content
+    h2 Tree Manager
+
+    // ADD NODE
+    h2 Add Node to Tree
+
+    #addNode
+        fieldset
+            input#inputParentId(type='text', placeholder='Parent Id')
+            div#inputParentIdErrMsg
+            p
+            button#btnAddNode Add Node
+
+    // /ADD NODE
+
+    // TREE LIST
+    p
+    h2 Tree List
+    #treeList
+        table
+            thead
+                th ID
+                th PARENT
+            tbody
+
+    p
+    button#btnClear Clear
+    // /TREE LIST
